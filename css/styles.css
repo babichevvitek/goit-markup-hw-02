@@ -1,3 +1,112 @@
-body{
-    background-color: tomato;
+/* Стили для Webstudio */
+:root{
+ --primary-text-color: #000000;
+ --accent-color: #2196F3 ; 
+ --title-text-color:#212121 ;
+ --button-text-color:#188CE8 ;
+ --hero-text-color:#ffffff;
+ --feature-text-color:#757575;
 }
+
+
+.body-studio{
+    background-color:var(--hero-text-color) ;
+}
+.span {
+    color: var(--accent-color) ;
+}
+
+.logo{
+    color: var(--primary-text-color);
+}
+
+.list{
+    list-style: none;
+}
+.site-nav .link{
+    color: var(--primary-text-color); 
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+ color: var(--accent-color);
+}
+        /* Hero */
+
+.hero{
+    color: var(--hero-text-color);
+}
+.button{
+    color: var(--hero-text-color);
+}
+.button:hover{
+    color:var(--button-text-color);
+}  
+.section-title{
+    color:var(--title-text-color) ;
+} 
+.section-feature{
+    color:var(--feature-text-color)
+}
+      /* Что мы делаем */
+
+.work{
+    color: var(--title-text-color);
+}
+.team{
+    color: var(--title-text-color);
+}
+.team-list{
+    color: var(--title-text-color);
+}
+.profession{
+    color: var(--feature-text-color);
+}
+.footer{
+    color: white;
+}
+.website{
+    color: var(--accent-color);
+}
+    /* Адрес сайта */
+.address-nav{
+    color: white;
+}
+.address-nav:hover,
+.address-nav:focus{
+    color: var(--accent-color);
+}
+.address-link{
+    color: white;
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+ /* цвет основного текста #212121;  */   
+ /*вторичный цвет текста #757575; */
+  /* белый #FFFFFF;*/
+  /*  акцент 2196F3 */
+
+  /* FFFFFF */
+  /*  вторичный фон F5F4F
+
+
+
+
+/* Стили для.portfolio */
+.body-portfolio{
+
+}
+
