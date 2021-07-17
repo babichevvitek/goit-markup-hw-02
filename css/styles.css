@@ -207,6 +207,15 @@
 .body-portfolio{
  background-color: var(--hero-text-color);
 }
+.portfolio{
+ color: var(--title-text-color);
+ font-family: Roboto;
+ font-weight: bold;
+ font-size: 36px;
+ line-height: 1.16;
+ text-align: center;
+ letter-spacing: 0.03em;
+}
 
 .buttons-list{
  color: var(--title-text-color);
