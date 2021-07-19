@@ -87,6 +87,8 @@
 }
 .button{
  color: var(--hero-text-color);
+ background-color:var(--accent-color);
+ display:inline-block;
  font-family: Roboto;
  font-weight: bold;
  font-size: 16px;
@@ -95,10 +97,10 @@
  align-items: center;
  text-align: center;
  letter-spacing: 0.06em;
-
+ 
 }
 .button:hover{
- color:var(--button-text-color);
+ background-color:var(--button-text-color);
     
 }  
 .section-title{
