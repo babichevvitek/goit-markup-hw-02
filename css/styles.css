@@ -8,6 +8,7 @@
  --feature-text-color:#757575;
  --fon-text-color: #F5F4FA;
  --grey-text-color: rgba(255, 255, 255, 0.6);
+ --box-text-color:#2F303A;
 }
 
 .body-studio{
@@ -17,7 +18,7 @@
   color: var(--title-text-color);
 
 }
-.span{
+.website{
   color: var(--accent-color) ;
   font-family: Raleway;
   font-weight: bold;
@@ -40,9 +41,11 @@
   text-decoration: none;
 }
 
+
 .list{
  list-style: none;
 }
+
 .site-nav .link{
  color: var(--title-text-color);
  font-family: Roboto;
@@ -52,9 +55,13 @@
  letter-spacing: 0.02em;
 }
 
+
 .site-nav .link:hover,
 .site-nav .link:focus{
  color:var(--accent-color);
+}
+.link.current{
+  color: var(--accent-color);
 }
 .contact-link{
  color: var(--feature-text-color);
@@ -68,12 +75,20 @@
 .contact-link:focus{
   color:var(--accent-color);
 }
+.contact-list{
+  list-style: none;
+}
+.contact-link{
+  text-decoration: none;
+}
+
 
 
         /* Hero */
 
 .hero{
  color: var(--hero-text-color);
+ background: var(--box-text-color);
  font-family: Roboto;
  font-weight: 900;
  font-size: 44px;
@@ -82,9 +97,7 @@
  letter-spacing: 0.06em;
  text-transform: uppercase; 
 }
-.section-list{
-  list-style: none;
-}
+
 .button{
  color: var(--hero-text-color);
  background-color:var(--accent-color);
@@ -93,6 +106,7 @@
  font-weight: bold;
  font-size: 16px;
  line-height: 1.87;
+ cursor: pointer;
  display: flex;
  align-items: center;
  text-align: center;
@@ -104,7 +118,7 @@
     
 }  
 .section-title{
- color:var(--title-text-color) ;
+ color: var(--title-text-color) ;
  font-family: Roboto;
  font-weight: bold;
  font-size: 14px;
@@ -113,7 +127,7 @@
  text-transform: uppercase;
 } 
 .section-feature{
- color:var(--feature-text-color)
+ color: var(--feature-text-color)
  font-family: Roboto;
  font-size: 14px;
  line-height: 1.17;
@@ -134,10 +148,14 @@
 .work-list{
  list-style: none;
 }
+.the-best{
+  background: var(--fon-text-color);
+}
 
 /* Наша команда */
 .team{
  color: var(--title-text-color);
+ background: var(--fon-text-color);
  font-family: Roboto;
  font-weight: bold;
  font-size: 36px;
@@ -164,6 +182,7 @@
  letter-spacing: 0.03em;
 }
 .team-professionals list{
+  background: var(--fon-text-color);
   list-style: none;
 }
 
@@ -196,6 +215,7 @@
 .address-street{
  color:  var(--hero-text-color);
  font-family: Roboto;
+ font-style: normal;
  font-size: 14px;
  line-height: 1.71;
  letter-spacing: 0.03em;
@@ -206,13 +226,14 @@
  color: var(--accent-color);
 }
 
-.address-street list{
- list-style: none;
+.address-street-list{
+  list-style: none;
 }
 
 .address-link{
  color: var(--grey-text-color);
  font-family: Roboto;
+ font-style: normal;
  font-size: 14px;
  line-height: 1.72;
  letter-spacing: 0.03em;
@@ -244,6 +265,7 @@
  font-weight: 500;
  font-size: 16px;
  line-height: 1.85;
+ cursor: pointer;
  text-align: center;
  letter-spacing: 0.03em;
 }
@@ -259,7 +281,7 @@
  color: var(--accent-color);
 }
 
-.picture list{
+.picture-list{
  list-style: none;
 }
 
@@ -284,6 +306,6 @@
  letter-spacing: 0.03em;
 }
 
-.site-buttons list{
+.site-buttons-list{
  list-style: none;
 }
